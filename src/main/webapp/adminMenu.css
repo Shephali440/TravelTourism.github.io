@@ -1,0 +1,113 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light turquoise background */
+}
+
+/* Main container that holds the nav and content */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left navigation container */
+.nav-container {
+    width: 250px;
+    background-color: #00796b; /* Deep teal background */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav title */
+.nav-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text for the title */
+}
+
+/* List style for the navigation menu */
+.nav-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual navigation links */
+.nav-container ul li {
+    margin: 15px 0;
+}
+
+.nav-container ul li a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-container ul li a:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Active link style (when on the current page) */
+.nav-container ul li a.active {
+    background-color: #004d40; /* Dark teal for active links */
+    color: white;
+}
+
+/* Right container for main content */
+.right-container {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff; /* White background for content area */
+}
+
+/* Heading styles for content */
+.right-container h1 {
+    font-size: 32px;
+    color: #00796b; /* Teal color for headings */
+    margin-bottom: 20px;
+}
+
+/* Paragraph text for content */
+.right-container p {
+    font-size: 18px;
+    color: #333333; /* Dark gray text for body */
+}
+
+/* Footer links */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #00796b; /* Teal color for footer links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #004d40; /* Darker teal when hovering */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-container {
+        padding: 20px;
+    }
+}

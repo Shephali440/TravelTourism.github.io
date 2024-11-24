@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://www.solitarytraveller.com/wp-content/uploads/2020/07/reason_best_travel_spot_banner-min.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 80px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+/* Paragraph text */
+p {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(64, 128, 128)
+}
+
+/* Button styling */
+.btn {
+    background-color: rgb(64, 128, 128);
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
